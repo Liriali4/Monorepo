@@ -1,10 +1,16 @@
 import React from 'react'
-import { Text } from '@chakra-ui/react'
+import { Heading } from '@chakra-ui/react'
 
 export default function Tables(): JSX.Element {
-    return(
-        <Text>
-            Mesas
-        </Text>
+
+    return (
+        <Heading
+            as='h2'
+            fontSize={24}
+            fontFamily={'open sans'}
+            textAlign={'center'}
+        >
+            Mesa única
+        </Heading>
     )
 }
