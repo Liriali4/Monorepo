@@ -1,8 +1,8 @@
 import React from 'react';
 import { Box, Heading } from '@chakra-ui/react';
-import Tables from '../modules/Mesas';
-import Category from '../modules/Categorias';
-import Drinks from '../modules/Bebidas';
+import Tables from '../modules/Table/Table';
+import Category from '../modules/Category/Category';
+import Drinks from '../modules/Drink/Drinks';
 
 export default function Screen(): JSX.Element {
     return (
