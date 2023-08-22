@@ -6,7 +6,6 @@ type CategoriasState = {
     setSelectedCategoria: (selectedCategoria: string) => void;
   };
   
-
 const useCategoriasStore = create<CategoriasState>((set) => ({
     categorias: [],
     selectedCategoria: '',
