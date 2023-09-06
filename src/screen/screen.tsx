@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Heading } from '@chakra-ui/react';
 import Tables from '../modules/Table/Table';
 import Category from '../modules/Category/Category';
-import Drinks from '../modules/Drink/Drinks';
+import ModuleDrinks from '../modules/Drink/Drinks';
 
 export default function Screen(): JSX.Element {
     return (
@@ -27,7 +27,7 @@ export default function Screen(): JSX.Element {
             </Heading>
             <Tables />
             <Category />
-            <Drinks />
+            <ModuleDrinks />
         </Box>
     )
 }

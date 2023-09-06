@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "multirepomodulodrink": "git+https://github.com/Liriali4/Multirepo-module-Drinks.git",
     "typescript": "^5.1.6"
   }
 }
