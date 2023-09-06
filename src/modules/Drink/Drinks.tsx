@@ -23,7 +23,6 @@ const Drinks = (): JSX.Element => {
         ]
     };
 
-
     const bebidasDaCategoria = categoriasBebidas[selectedCategoria as keyof typeof categoriasBebidas] || [];
 
     return (
