@@ -1,14 +1,15 @@
-import React from 'react';
-import { Box, Text } from '@chakra-ui/react';
-import Drinks from 'multirepomodulodrink';
+import React from 'react'
+import { Box } from '@chakra-ui/react';
+import Drinks from 'multirepomodulodrink'
+import useCategoriasStore from '../../State';
 
 export default function ModuleDrinks(): JSX.Element{
 
+    const selectedCategoria = useCategoriasStore((state) => state.selectedCategoria);
 
     return (
         <Box>
-            <Text> Bebidas da Categoria </Text>
-            <Drinks/>
+            <Drinks selectedCategoria={selectedCategoria}/>
         </Box>
     );
 };
